@@ -1,0 +1,19 @@
+{
+  "name": "vue-aside",
+  "description": "Vue.js webpack",
+  "version": "1.0.0",
+  "author": "Alex <piro@list.ru>",
+  "scripts": {
+    "build": "webpack",
+	"watch": "webpack --watch"
+  },
+  "dependencies": {
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "vue-loader": "^15.4.2",
+    "vue-template-compiler": "^2.5.17",
+    "css-loader": "^1.0.0",
+    "webpack": "^4.20.0"
+  }
+}
